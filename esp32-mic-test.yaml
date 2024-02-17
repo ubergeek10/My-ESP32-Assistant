@@ -50,13 +50,6 @@ wifi:
   on_disconnect:
     - script.execute: control_led
 
-esp_adf:
-external_components:
-  - source: github://pr#5230
-    components:
-    - esp_adf 
-    refresh: 0s
-
 captive_portal:
 
 light:
